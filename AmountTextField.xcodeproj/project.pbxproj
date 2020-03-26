@@ -15,6 +15,7 @@
 		799424F5242749F9007AB87A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 799424F3242749F9007AB87A /* LaunchScreen.storyboard */; };
 		79942500242749FA007AB87A /* AmountTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799424FF242749FA007AB87A /* AmountTextFieldTests.swift */; };
 		7994250B242749FA007AB87A /* AmountTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994250A242749FA007AB87A /* AmountTextFieldUITests.swift */; };
+		7994251924274A0D007AB87A /* AmountTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994251824274A0D007AB87A /* AmountTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		79942506242749FA007AB87A /* AmountTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmountTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7994250A242749FA007AB87A /* AmountTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountTextFieldUITests.swift; sourceTree = "<group>"; };
 		7994250C242749FA007AB87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7994251824274A0D007AB87A /* AmountTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmountTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				799424E8242749F8007AB87A /* AppDelegate.swift */,
 				799424EA242749F8007AB87A /* SceneDelegate.swift */,
 				799424EC242749F8007AB87A /* ViewController.swift */,
+				7994251824274A0D007AB87A /* AmountTextField.swift */,
 				799424EE242749F8007AB87A /* Main.storyboard */,
 				799424F1242749F9007AB87A /* Assets.xcassets */,
 				799424F3242749F9007AB87A /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				799424ED242749F8007AB87A /* ViewController.swift in Sources */,
+				7994251924274A0D007AB87A /* AmountTextField.swift in Sources */,
 				799424E9242749F8007AB87A /* AppDelegate.swift in Sources */,
 				799424EB242749F8007AB87A /* SceneDelegate.swift in Sources */,
 			);
